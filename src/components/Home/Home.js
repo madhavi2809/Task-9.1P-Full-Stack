@@ -13,7 +13,7 @@ function Home(props) {
       </div>
       <br />
       <h2>{props.name ? `Welcome - ${props.name}` : "Please Login to your account using the above link"}</h2>
-
+      <br />
       <div>
         <h1>
           <Link to="/login">Sign Out</Link>
