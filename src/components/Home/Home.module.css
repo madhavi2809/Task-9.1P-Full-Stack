@@ -1,0 +1,51 @@
+.home {
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to top, #cf9292, #9aeacd);
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria;
+}
+
+.btn {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #cf9292;
+    border-color: #b75252;
+    color: #03402a;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-family: Cambria;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #9aeacd;
+    border-color: #38a980;
+    color: #963e3e;
+    font-weight: bold;
+  }
+
+.OutBtn {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #9aeacd;
+    border-color: #38a980;
+    color: #963e3e;
+    width: 140px;
+    height: 40px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    font-family: Cambria;
+    transition: background-color 0.3s;
+}
+
+.OutBtn:hover {
+    background-color: #cf9292;
+    border-color: #b75252;
+    color: #03402a;
+    font-weight: bold;
+}
